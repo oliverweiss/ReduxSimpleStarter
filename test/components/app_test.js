@@ -11,4 +11,9 @@ describe('App' , () => {
   it('renders something', () => {
     expect(component).to.exist;
   });
+
+  it('contains a header', () => {
+    expect(component.find('.header-component')).to.exist;
+  });
+
 });
